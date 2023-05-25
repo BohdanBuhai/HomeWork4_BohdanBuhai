@@ -1,0 +1,61 @@
+
+{
+    "count": 1,
+    "companyDescription": "This company sells modern mobile phones.The company was established on May 22, 2023 We want people all over the world to be able to buy a good and quality product",
+    "listOfData": [
+        {
+            "name": "Iphone",
+            "modelNumbers": "7plus",
+            "countris": ["Ukraine", "Poland", "Germany", "Sweden"],
+            "price": {
+                "regions": [
+                    {
+                        "name": "Poland model",
+                        "price": 100
+                    },
+                    {
+                        "name": "Ukraine model",
+                        "price": 70
+                    }
+                ]
+            },
+            "year": 2015
+        },
+        {
+            "name": "Iphone",
+            "modelNumbers": "11 pro max",
+            "countris": ["Ukraine", "Poland", "Germany", "Sweden"],
+            "price": {
+                "regions": [
+                    {
+                        "name": "Germany",
+                        "price": 250
+                    },
+                    {
+                        "name": "Sweden",
+                        "price": 200
+                    }
+                ]
+            },
+            "year": 2019
+        },
+        {
+            "name": "Samsung",
+            "modelNumbers": "galaxy s23",
+            "countris": ["Ukraine", "Poland", "Germany", "Sweden"],
+            "price": {
+                "regions": [
+                    {
+                        "name": "Germany",
+                        "price": 170
+                    },
+                    {
+                        "name": "Ukraine",
+                        "price": 110
+                    }
+                ]
+            },
+            "year": 2020
+        }
+    ]
+}
