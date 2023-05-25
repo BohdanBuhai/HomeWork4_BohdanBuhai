@@ -4,6 +4,10 @@
 //
 //  Created by Bohdan on 5/23/23.
 // some coding
+//code1
+/*
+ code2
+ */
 
 import Foundation
 
