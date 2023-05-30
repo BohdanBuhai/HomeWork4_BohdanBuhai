@@ -28,10 +28,10 @@ struct Result: Codable {
     let backdropPath: String
     let id: Int
     let title: String
-    let originalLanguage: OriginalLanguage
+//    let originalLanguage: OriginalLanguage
     let originalTitle, overview: String
     let posterPath: String
-    let mediaType: MediaType
+//    let mediaType: MediaType
     let genreIDS: [Int]
     let popularity: Double
     let releaseDate: String
@@ -43,11 +43,11 @@ struct Result: Codable {
         case adult
         case backdropPath = "backdrop_path"
         case id, title
-        case originalLanguage = "original_language"
+//        case originalLanguage = "original_language"
         case originalTitle = "original_title"
         case overview
         case posterPath = "poster_path"
-        case mediaType = "media_type"
+//        case mediaType = "media_type"
         case genreIDS = "genre_ids"
         case popularity
         case releaseDate = "release_date"
