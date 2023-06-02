@@ -15,9 +15,9 @@ final class NetworkManadger {
     func loadData() async throws -> [Result] {
         
         let sessionResponse = try await session.data(from: apiUrl!)
-        let resultResponse = try JSONDecoder().decode(TrendingMovies.self, from: sessionResponse.0)
+        let resultResponse = try JSONDecoder().decode(Result.self, from: sessionResponse.0)
         
-        return resultResponse.results
+        return [resultResponse]
     }
 }
 

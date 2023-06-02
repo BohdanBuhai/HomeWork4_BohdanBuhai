@@ -22,6 +22,7 @@
 		47F72CF22A1D52CA006698B9 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F72CF02A1D52CA006698B9 /* MovieTableViewCell.swift */; };
 		47F72CF32A1D52CA006698B9 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F72CF12A1D52CA006698B9 /* MovieTableViewCell.xib */; };
 		47F72DAB2A29FBC5006698B9 /* NatworkManadger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F72DAA2A29FBC5006698B9 /* NatworkManadger.swift */; };
+		47F72DCE2A2A2282006698B9 /* UserDefaultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F72DCD2A2A2282006698B9 /* UserDefaultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		47F72CF02A1D52CA006698B9 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		47F72CF12A1D52CA006698B9 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 		47F72DAA2A29FBC5006698B9 /* NatworkManadger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatworkManadger.swift; sourceTree = "<group>"; };
+		47F72DCD2A2A2282006698B9 /* UserDefaultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		47285F342A17FE9700735DD2 /* HomeWork4_BohdanBuhai */ = {
 			isa = PBXGroup;
 			children = (
+				47F72DCC2A2A2244006698B9 /* CachingManadger */,
 				47F72DA92A29FB6D006698B9 /* NetworkManadger */,
 				47F72CEC2A1D470F006698B9 /* BarControllers */,
 				47B282712A1CAEFF0002EFBB /* Task4Models */,
@@ -124,6 +127,14 @@
 				47F72DAA2A29FBC5006698B9 /* NatworkManadger.swift */,
 			);
 			path = NetworkManadger;
+			sourceTree = "<group>";
+		};
+		47F72DCC2A2A2244006698B9 /* CachingManadger */ = {
+			isa = PBXGroup;
+			children = (
+				47F72DCD2A2A2282006698B9 /* UserDefaultsController.swift */,
+			);
+			path = CachingManadger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +219,7 @@
 				47B282702A1CAEE40002EFBB /* GenresModel.swift in Sources */,
 				47F72DAB2A29FBC5006698B9 /* NatworkManadger.swift in Sources */,
 				47B2826E2A1C9ADE0002EFBB /* TrendigMovieModels.swift in Sources */,
+				47F72DCE2A2A2282006698B9 /* UserDefaultsController.swift in Sources */,
 				47285F4A2A1B6F7800735DD2 /* CompaniModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
