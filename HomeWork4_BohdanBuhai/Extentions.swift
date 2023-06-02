@@ -21,7 +21,7 @@ extension MovieViewController: UITableViewDataSource {
         cell.titleLabel.text = movie.title
         cell.idLabel.text = "ID-\(movie.id))"
         cell.overviewLabel.text = movie.overview
-        let imagUrl = self.creatUrl(api: "https://image.tmdb.org/t/p/w500\(movie.backdropPath)")
+        let imagUrl = self.creatUrl(api: "https://image.tmdb.org/t/p/w500\(movie.posterPath)")
         let taskGetImagr = session.dataTask(with: imagUrl) {data,_,_ in
             guard let data = data else {return}
             DispatchQueue.main.async {
