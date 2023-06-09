@@ -10,9 +10,9 @@ import UIKit
 
 final class MovieViewController: UIViewController {
     
-    let networkManadger = NetworkManadger()
-    let cachingContoller = UserDefaultsController()
-    
+//    let networkManadger = NetworkManadger()
+//    let cachingManadger = UserDefaultsManadger()
+    let dataManadger = DataFlowManager()
     @IBOutlet weak var tableView: UITableView!
     public var arreyR = [Result]()
     var countMovies = Int()
@@ -27,15 +27,12 @@ final class MovieViewController: UIViewController {
     }
     
     private func loadData() {
-        Task.init{
-            let cashedMovie = cachingContoller.load()
-            if  cashedMovie.count > 0 {
-                arreyR = cashedMovie
-                tableView.reloadData()
+        Task.init {
+            do {
+                arreyR = try await dataManadger.loadData()
+            } catch {
+                print(error)
             }
-            
-            arreyR = try await networkManadger.loadData()
-            cachingContoller.seva(movies: arreyR)
             tableView.reloadData()
         }
     }

@@ -3,4 +3,243 @@
    uuid = "D3ABA850-8513-43C7-B3D5-DA12DAF2DFB5"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D9175DD-6912-424A-9F04-F9C3C2E03F8C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork4_BohdanBuhai/CachingManadger/FileCachingController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5D9175DD-6912-424A-9F04-F9C3C2E03F8C - 36b74eafbee09378"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork4_BohdanBuhai.FileCachingController.loadData() async throws -&gt; Swift.Array&lt;HomeWork4_BohdanBuhai.Result&gt;"
+                  moduleName = "HomeWork4_BohdanBuhai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bohdan/Desktop/HomeWorks/HomeWork4_BohdanBuhai/HomeWork4_BohdanBuhai/CachingManadger/FileCachingController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "130">
+               </Location>
+               <Location
+                  uuid = "5D9175DD-6912-424A-9F04-F9C3C2E03F8C - 9d5e0471e912aa0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for HomeWork4_BohdanBuhai.FileCachingController.loadData() async throws -&gt; Swift.Array&lt;HomeWork4_BohdanBuhai.Result&gt;"
+                  moduleName = "HomeWork4_BohdanBuhai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bohdan/Desktop/HomeWorks/HomeWork4_BohdanBuhai/HomeWork4_BohdanBuhai/CachingManadger/FileCachingController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "90">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB52A01C-EB04-4740-A463-C397811E0524"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork4_BohdanBuhai/DataFlowManager/DataFlowManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB52A01C-EB04-4740-A463-C397811E0524 - 695f6395b127004d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for HomeWork4_BohdanBuhai.DataFlowManager.loadData() async throws -&gt; Swift.Array&lt;HomeWork4_BohdanBuhai.Result&gt;"
+                  moduleName = "HomeWork4_BohdanBuhai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bohdan/Desktop/HomeWorks/HomeWork4_BohdanBuhai/HomeWork4_BohdanBuhai/DataFlowManager/DataFlowManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "83">
+               </Location>
+               <Location
+                  uuid = "AB52A01C-EB04-4740-A463-C397811E0524 - e5008073525f5392"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for HomeWork4_BohdanBuhai.DataFlowManager.loadData() async throws -&gt; Swift.Array&lt;HomeWork4_BohdanBuhai.Result&gt;"
+                  moduleName = "HomeWork4_BohdanBuhai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bohdan/Desktop/HomeWorks/HomeWork4_BohdanBuhai/HomeWork4_BohdanBuhai/DataFlowManager/DataFlowManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "AB52A01C-EB04-4740-A463-C397811E0524 - ab776f714aac5e40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for HomeWork4_BohdanBuhai.DataFlowManager.loadData() async throws -&gt; Swift.Array&lt;HomeWork4_BohdanBuhai.Result&gt;"
+                  moduleName = "HomeWork4_BohdanBuhai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bohdan/Desktop/HomeWorks/HomeWork4_BohdanBuhai/HomeWork4_BohdanBuhai/DataFlowManager/DataFlowManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4228224-5C9A-4B1F-A4F3-D0F7B742F648"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork4_BohdanBuhai/DataFlowManager/DataFlowManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B4228224-5C9A-4B1F-A4F3-D0F7B742F648 - 41a9c657fb7647ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for HomeWork4_BohdanBuhai.DataFlowManager.loadData() async throws -&gt; Swift.Array&lt;HomeWork4_BohdanBuhai.Result&gt;"
+                  moduleName = "HomeWork4_BohdanBuhai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bohdan/Desktop/HomeWorks/HomeWork4_BohdanBuhai/HomeWork4_BohdanBuhai/DataFlowManager/DataFlowManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "B4228224-5C9A-4B1F-A4F3-D0F7B742F648 - c1f4eac948a89431"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for HomeWork4_BohdanBuhai.DataFlowManager.loadData() async throws -&gt; Swift.Array&lt;HomeWork4_BohdanBuhai.Result&gt;"
+                  moduleName = "HomeWork4_BohdanBuhai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bohdan/Desktop/HomeWorks/HomeWork4_BohdanBuhai/HomeWork4_BohdanBuhai/DataFlowManager/DataFlowManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "B4228224-5C9A-4B1F-A4F3-D0F7B742F648 - b88259162d45bbe4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for HomeWork4_BohdanBuhai.DataFlowManager.loadData() async throws -&gt; Swift.Array&lt;HomeWork4_BohdanBuhai.Result&gt;"
+                  moduleName = "HomeWork4_BohdanBuhai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bohdan/Desktop/HomeWorks/HomeWork4_BohdanBuhai/HomeWork4_BohdanBuhai/DataFlowManager/DataFlowManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "78">
+               </Location>
+               <Location
+                  uuid = "B4228224-5C9A-4B1F-A4F3-D0F7B742F648 - 9fdcbdd09794ffe6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for HomeWork4_BohdanBuhai.DataFlowManager.loadData() async throws -&gt; Swift.Array&lt;HomeWork4_BohdanBuhai.Result&gt;"
+                  moduleName = "HomeWork4_BohdanBuhai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bohdan/Desktop/HomeWorks/HomeWork4_BohdanBuhai/HomeWork4_BohdanBuhai/DataFlowManager/DataFlowManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A8FCED2-558D-4B5E-AB3E-393531C567E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork4_BohdanBuhai/CachingManadger/FileCachingController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "seva(movies:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41AF1AA2-69E7-4544-B6BB-7B21F00DEAD9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork4_BohdanBuhai/BarControllers/MovieViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A72E6C1-F18F-47B2-B1FE-D09CD3091380"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork4_BohdanBuhai/NetworkManadger/NatworkManadger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

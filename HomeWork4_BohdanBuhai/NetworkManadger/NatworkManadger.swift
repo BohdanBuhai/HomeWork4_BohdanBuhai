@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class NetworkManadger {
+final class NetworkManadger: DataFetching {
     
     let apiUrl = URL(string: "https://api.themoviedb.org/3/trending/movie/week?api_key=97f9be71d695b2b55155b49b40b9c53a")
     let session = URLSession.shared
@@ -15,9 +15,9 @@ final class NetworkManadger {
     func loadData() async throws -> [Result] {
         
         let sessionResponse = try await session.data(from: apiUrl!)
-        let resultResponse = try JSONDecoder().decode(Result.self, from: sessionResponse.0)
+        let resultResponse = try JSONDecoder().decode(TrendingMovies.self, from: sessionResponse.0)
         
-        return [resultResponse]
+        return resultResponse.results
     }
 }
 
